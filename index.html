@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <style>
+        body{
+            background-image:  url("https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_960_720.jpg");
+            background-repeat: no-repeat;
+            width:100%;
+            height: auto;
+            background-size: cover;
+        }
+        
+        .container{
+            
+            
+        }
+        .container a{
+            background-color: ;
+            padding:20px 50px;
+            color: white;
+            text-decoration:none;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Franklin  ', 'Arial Narrow', Arial, sans-serif;
+            
+           }
+        .container a:hover{
+            border-bottom: 5px solid yellow;
+
+        }
+        h1{
+            color: white;
+            font-size:70px;
+            margin-left: 10px;
+            margin-top:100px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+        }
+        p{
+            color: white;
+            margin-left: 10px;
+        }
+        button{
+            padding:20px 50px;
+            margin-left: 10px;
+            margin-top: 80px;
+            font-size:30px;
+           font-weight: bold;
+           border-radius: 0.4em;
+           box-shadow: 0px 0px 0px 0.1;
+
+        }
+        #btn1{
+            background-color:purple;
+            color: white;
+        }
+        #btn1:hover{
+            background-color:red;
+            color: white;
+        }
+        
+        
+        #change_content:after{
+    content:"";
+    animation: changetext 10s infinite linear;
+    color:white;
+    font-family:cursive;
+    font-size: 30px;
+
+}
+@keyframes changetext{
+    /* 0%{content:url("arjit.jpeg");} */
+    0%{content:"Food challlenge";}
+    12%{content:"Top 10 Winner";}
+    24%{content:"Join to Win";}
+    36%{content:"Come to Enjoy";}
+    49%{content:"Book Ticket";}
+    60%{content:"Come to Play";}
+    72%{content:"Star War";}
+    88%{content:"Make Record";}
+    100%{content:"Star War";}
+}
+
+@media screen and (max-width: 931px) {
+    .main_container{
+        width:10%;
+    }
+    #change_content{
+        width:1%;
+    }
+    .container{
+        width:100%;
+    }
+    
+}
+
+@media screen and (max-width: 769px) {
+    .main_container{
+        width:10%;
+    }
+    #change_content{
+        width:1%;
+    }
+    .container{
+        width:100%;
+    }
+    
+}
+
+@media screen and (max-width: 668px) {
+    .main_container{
+        width:10%;
+    }
+    #change_content{
+        width:1%;
+    }
+    .container{
+        width:10%;
+    }
+    
+}
+@media screen and (max-width: 540px) {
+    body{
+        background-image:  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)) ,url("https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_960_720.jpg");
+        background-repeat: no-repeat;
+            width:100%;
+            height: auto;
+            background-size: cover;
+    
+    }
+
+    
+    .main_container{
+        width:10%;
+    }
+    h1{
+        font-size:300%;
+    }
+    .container a{
+        font-size:150%;
+        padding:5px 5px;
+        
+    }
+    #change_content{
+        font-size:2px;
+    }
+    .container{
+        width:100%;
+    }
+    button{
+        width:90%;
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+    body{
+        background-image:  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)) ,url("https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_960_720.jpg");
+        background-repeat: no-repeat;
+            width:100%;
+            height: auto;
+            background-size: cover;
+    
+    }
+
+    
+    .main_container{
+        width:10%;
+    }
+    h1{
+        font-size:300%;
+    }
+    .container a{
+        font-size:150%;
+        padding:5px 5px;
+        
+    }
+    #change_content{
+        font-size:2px;
+    }
+    .container{
+        width:100%;
+    }
+    button{
+        width:90%;
+    }
+    
+}
+#yahoofo{
+    color: yellow;
+    font-size:50px;
+}
+
+@media (min-width:360px) {
+    #yahoofo{
+    color: yellow;
+    font-size:1.5rem;
+}
+    .container a{
+        font-size:1.5rem;
+    }
+    .container h1{
+        font-size:1.9rem;
+    }
+    #change_content{
+        font-size:1.9rem;
+
+    }
+    #btn1{
+        padding:10px 10px;
+        
+    }
+    #btn2{
+        padding:10px 10px;
+        margin-top: 5px;
+        
+    }
+    body{
+            background-image:  url("https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_960_720.jpg");
+            background-repeat: no-repeat;
+            width:100%;
+            height: auto;
+            background-size: cover;
+        }
+    
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main_container" ><span id="yahoofo">YaHoo FooDoW</span><span id="change_content"></span></div>
+    
+    <div class="container" style="margin-top:20px; text-align:left;">
+        
+        <a href="breckfast.html">Breakfast</a>
+        <a href="Lunch.html">Lunch</a>
+        <a href="dinner.html">Dinner</a>
+        <a href="food.html">Food type</a>
+        <h1>Good food choices are<br/> Great investment.</h1>
+        
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit at nostrum architecto sequi debitis ea molestiae  <br>architecto, laudantium cupiditate necessitatibus cumque!</p>
+        
+    </div>
+    <button id="btn1"> <a href="joinus.html" style="font-size:35px; text-decoration: none; color:white">Join Now</a></button>
+        <button id="btn2"><a href="contect .html" style="font-size:35px; text-decoration: none; color:Red">Contact Me >></a></button>
+    
+</body>
+</html>
